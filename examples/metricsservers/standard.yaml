@@ -1,0 +1,16 @@
+apiVersion: helm.hops.ops.com.ai/v1alpha1
+kind: MetricsServer
+metadata:
+  name: metrics-server
+  namespace: example-env
+spec:
+  clusterName: example-cluster
+  labels:
+    team: platform
+  namespace: kube-system
+  values:
+    replicas: 2
+    resources:
+      requests:
+        cpu: 100m
+        memory: 200Mi
