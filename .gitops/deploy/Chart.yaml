@@ -2,4 +2,4 @@ apiVersion: v2
 name: helm-metrics-server
 version: 0.0.0
 description: GitOps packaging for the metrics-server Crossplane configuration
-appVersion: 3.12.2
+appVersion: 3.13.0
